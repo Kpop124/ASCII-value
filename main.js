@@ -31,6 +31,24 @@ function my_keydown(e)
         document.getElementById("d1").innerHTML="You pressed Alphabet key";
 		console.log("alphabet key");
 }
+    if((keyPressed >=48 && keyPressed<=57){
+		numberkey();
+        document.getElementById("d1").innerHTML="You pressed Number key";
+		console.log("number key");
+    
+    if((keyPressed >=37 && keyPressed<=40){
+		arrowkey();
+        document.getElementById("d1").innerHTML="You pressed Aroow key";
+		console.log("arrow key");
+}
+
+if((keyPressed = 17/18/27){
+		specialkey();
+        document.getElementById("d1").innerHTML="You pressed Special key";
+		console.log("special key");
+}
+
+}
 	else {
 		otherkey();
 		document.getElementById("d1").innerHTML="You pressed symbol or other key";
